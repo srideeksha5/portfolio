@@ -2197,3 +2197,17 @@ h2 em {
     line-height: 1.3 !important;
     text-align: center;
 }
+/* Reset native button styles for family flip cards */
+.family-flip {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  width: 100%;
+  cursor: pointer;
+}
