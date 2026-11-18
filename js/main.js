@@ -148,19 +148,6 @@ familyCards.forEach((card) => {
 
   });
 
-  card.addEventListener("keydown", (event) => {
-
-    if (event.key === "Enter" || event.key === " ") {
-
-      event.preventDefault();
-
-      const isFlipped = card.classList.toggle("is-flipped");
-      card.setAttribute("aria-pressed", String(isFlipped));
-
-    }
-
-  });
-
 });
 
 
