@@ -116,3 +116,56 @@
   --z-menu: 110;
   --z-lightbox: 200;
 }
+/* =========================================
+   DARK BLUE THEME
+========================================= */
+
+[data-theme="dark"] {
+
+  /* MAIN PALETTE */
+  --color-background: #17212f;
+  --color-surface: #222f40;
+  --color-surface-muted: #2c3a4c;
+
+  --color-text: #edf1f7;
+  --color-text-muted: #b6c2d1;
+  --color-text-light: #8495aa;
+
+  /* ACCENT COLOURS */
+  --color-primary: #a6a0d2;
+  --color-primary-dark: #827bb4;
+  --color-primary-light: #3d3a57;
+
+  --color-terracotta: #d49a87;
+  --color-terracotta-light: #493c42;
+
+  --color-sage: #a8bba7;
+  --color-sage-light: #37483f;
+
+  --color-lilac: #b9b0d8;
+  --color-lilac-light: #39374f;
+
+  /* INTEREST CARD TONES */
+  --color-ink-blue: #9bbdd2;
+  --color-ink-blue-light: #354c5d;
+
+  --color-plum: #c1a1c0;
+  --color-plum-light: #44364b;
+
+  --color-ochre: #d4b17e;
+  --color-ochre-light: #494134;
+
+  /* FAMILY SECTION */
+  --color-family-background: #263448;
+  --color-family-card: #314155;
+  --color-family-accent: #c3a0a0;
+
+  /* BORDERS AND OVERLAYS */
+  --color-border: #3d4c60;
+  --color-border-dark: #52647a;
+
+  --color-overlay: rgba(12, 20, 32, 0.78);
+  --color-overlay-strong: rgba(10, 16, 27, 0.88);
+
+  --color-shadow: rgba(5, 12, 22, 0.35);
+}
