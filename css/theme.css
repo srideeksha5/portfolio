@@ -1,0 +1,118 @@
+/* =========================================
+   THEME SYSTEM
+   Change the variables here to restyle
+   the entire website.
+========================================= */
+
+:root {
+
+  /* COLOURS — MAIN PALETTE */
+  --color-background: #f6f1e9;
+  --color-surface: #fffdf9;
+  --color-surface-muted: #eee7dc;
+
+  --color-text: #302923;
+  --color-text-muted: #756b61;
+  --color-text-light: #a59a8e;
+
+  /* ACCENT COLOURS */
+  --color-primary: #86566a;
+  --color-primary-dark: #684052;
+  --color-primary-light: #e8d8df;
+
+  --color-terracotta: #bd765d;
+  --color-terracotta-light: #ead2c6;
+
+  --color-sage: #899582;
+  --color-sage-light: #dce1d5;
+
+  --color-lilac: #c8b9cf;
+  --color-lilac-light: #e9e2ed;
+
+  /* INTEREST CARD TONES */
+  --color-ink-blue: #536b78;
+  --color-ink-blue-light: #dce6e8;
+  --color-plum: #79566e;
+  --color-plum-light: #eadde7;
+  --color-ochre: #a9824f;
+  --color-ochre-light: #eee2cd;
+
+  /* FAMILY SECTION */
+  --color-family-background: #e9e1d5;
+  --color-family-card: #f8f3eb;
+  --color-family-accent: #9b705f;
+
+  /* BORDERS AND OVERLAYS */
+  --color-border: #ded5c9;
+  --color-border-dark: #c8bbae;
+  --color-overlay: rgba(38, 30, 27, 0.72);
+  --color-overlay-strong: rgba(35, 28, 25, 0.72);
+  --color-shadow: rgba(48, 41, 35, 0.12);
+
+  /* TRANSLUCENT DECORATIVE TONES */
+  --color-white-16: rgba(255, 255, 255, 0.16);
+  --color-white-18: rgba(255, 255, 255, 0.18);
+  --color-white-22: rgba(255, 255, 255, 0.22);
+  --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-white-60: rgba(255, 255, 255, 0.6);
+  --color-white-80: rgba(255, 255, 255, 0.8);
+  --color-white-035: rgba(255, 255, 255, 0.035);
+  --color-white-025: rgba(255, 255, 255, 0.025);
+
+  /* TYPOGRAPHY */
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "DM Sans", Arial, sans-serif;
+  --font-mono: "DM Mono", monospace;
+
+  /* FONT SIZES */
+  --text-xs: 0.7rem;
+  --text-sm: 0.82rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.6rem;
+  --text-2xl: 2.2rem;
+  --text-3xl: 3.2rem;
+  --text-display: clamp(3.5rem, 8vw, 8.5rem);
+
+  /* FONT WEIGHTS */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* SPACING */
+  --space-1: 0.35rem;
+  --space-2: 0.65rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4rem;
+  --space-8: 6rem;
+  --space-9: 8rem;
+
+  /* LAYOUT */
+  --container-width: 1200px;
+  --container-padding: clamp(1.25rem, 6vw, 6rem);
+  --header-height: 82px;
+
+  /* BORDER RADIUS */
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* SHADOWS */
+  --shadow-soft: 0 12px 35px var(--color-shadow);
+  --shadow-card: 0 20px 55px var(--color-shadow);
+
+  /* TRANSITIONS */
+  --transition-fast: 180ms ease;
+  --transition-normal: 350ms ease;
+  --transition-slow: 650ms ease;
+
+  /* LAYER ORDER */
+  --z-header: 100;
+  --z-menu: 110;
+  --z-lightbox: 200;
+}
