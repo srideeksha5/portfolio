@@ -311,3 +311,24 @@ if (backToTop) {
   });
 
 }
+// =========================================
+// DARK MODE TOGGLE
+// =========================================
+
+const themeToggle = document.getElementById("theme-toggle");
+
+if (themeToggle) {
+  themeToggle.addEventListener("click", () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+
+    if (currentTheme === "dark") {
+      document.documentElement.removeAttribute("data-theme");
+      themeToggle.textContent = "☾";
+      themeToggle.setAttribute("aria-label", "Switch to dark mode");
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+      themeToggle.textContent = "☀";
+      themeToggle.setAttribute("aria-label", "Switch to light mode");
+    }
+  });
+}
