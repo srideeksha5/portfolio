@@ -18,11 +18,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check repository structure
+      - name: Display repository structure
         run: |
-          test -f index.html
-          test -d assets
-          test -d .github/workflows
+          pwd
+          ls -la
+          find . -maxdepth 2 -type f
+
+      - name: Check website files
+        run: |
+          test -f ./index.html
+          test -d ./css
+          test -d ./images
+          test -d ./js
 
       - name: Check required workflow files
         run: |
@@ -31,7 +38,5 @@ jobs:
           test -f .github/workflows/deploy.yml
           test -f .github/workflows/pr-checks.yml
 
-      - name: Validate workflow configuration
-        run: |
-          echo "All required files are present."
-          echo "Pull request validation completed successfully."
+      - name: PR validation completed
+        run: echo "All repository checks passed."
